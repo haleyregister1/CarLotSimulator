@@ -15,8 +15,32 @@ namespace CarLotSimulator
 
 
             //Now that the Car class is created we can instanciate 3 new cars
+            Car firstCar = new Car("","","");
+            Car secondCar = new Car("","","");
+            Car thirdCar = new Car("","","");
+           
             //Set the properties for each of the cars
+            firstCar.Year = "1969";
+            secondCar.Year = "2014";
+            thirdCar.Year = "2019";
+
+            firstCar.Make = "Ford";
+            secondCar.Make = "Cadillac";
+            thirdCar.Make = "Jeep";
+
+            firstCar.Model = "Mustang";
+            secondCar.Model = "SRX";
+            thirdCar.Model = "Wrangler";
+
+
             //Call each of the methods for each car
+            firstCar.EngineNoise("Vroom Vroom");
+            secondCar.EngineNoise("Vroom Vroom");
+            thirdCar.EngineNoise("Vroom Vroom");
+
+            firstCar.HonkNoise("Beep Beep");
+            secondCar.HonkNoise("Beep Beep");
+            thirdCar.HonkNoise("Beep Beep");
 
             //*************BONUS*************//
 
